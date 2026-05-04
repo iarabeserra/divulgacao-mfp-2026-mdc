@@ -952,21 +952,24 @@ body {
 
   /* TREINEIRA / COMPETIDORA (BOTÕES) */
   .link-row {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .link-label {
-    min-width: auto;
-    font-size: 11px;
-  }
+.link-label {
+  min-width: auto;
+  font-size: 11px;
+}
 
-  .link-btn {
-    width: auto;
-    font-size: 10px;
-    padding: 6px 12px;
-  }
+.link-btn {
+  width: 180px;         
+  font-size: 12px;
+  padding: 10px 16px;
+  text-align: center;
+  white-space: nowrap;     
+}
 
   /* STEP MAIS COMPACTO */
   .step {
@@ -976,8 +979,8 @@ body {
   }
 
   .step-num {
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
     font-size: 15px;
     margin-top: 2px;
   }

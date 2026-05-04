@@ -932,7 +932,7 @@ body {
 
   /* TÍTULO MENOR */
   .main-title {
-    font-size: 36px;
+    font-size: 40px;
     line-height: 1.1;
   }
 
@@ -970,20 +970,23 @@ body {
 
   /* STEP MAIS COMPACTO */
   .step {
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  .step-title {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    flex-direction: row; /* muda de coluna → linha */
+    align-items: flex-start;
   }
 
   .step-num {
     width: 28px;
     height: 28px;
     font-size: 13px;
+    margin-top: 2px;
+  }
+
+  .step > div {
+    flex: 1;
+  }
+
+  .step-title {
+    font-size: 14px;
   }
 
   /* CONTATOS MAIS ORGANIZADOS */
@@ -1017,10 +1020,11 @@ body {
   }
 
   .cat-card {
-    padding: 22px 18px;
+    padding: 24px 22px;
   }
 
   .cat-name {
+    font-size: 18px;
     line-height: 1.2;
   }
 }

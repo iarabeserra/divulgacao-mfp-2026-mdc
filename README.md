@@ -52,7 +52,6 @@ Iniciativa voltada para a participação feminina na área de tecnologia e ciên
 │   └── script.js
 ├── index.html
 └── README.md
-
 ```
 ---
 

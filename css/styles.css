@@ -964,9 +964,9 @@ body {
 }
 
 .link-btn {
-  width: 180px;         
-  font-size: 12px;
-  padding: 10px 16px;
+  width: 150px;         
+  font-size: 11px;
+  padding: 06px 12px;
   text-align: center;
   white-space: nowrap;     
 }

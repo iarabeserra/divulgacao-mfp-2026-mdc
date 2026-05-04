@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 💜 MFP 2026 — Maratona Feminina de Programação
 
 Página web desenvolvida para divulgação da **Maratona Feminina de Programação 2026 (MFP)**.
@@ -54,21 +53,19 @@ Iniciativa voltada para a participação feminina na área de tecnologia e ciên
 ├── index.html
 └── README.md
 
-
 ```
 ---
 
-## 📱 Acesso
+## 🌐 Acesse o projeto
 
-O site pode ser acessado diretamente pelo navegador ou através de QR Code presente nos materiais de divulgação.
+🔗 **Site publicado:**  
+https://iarabeserra.github.io/divulgacao-mfp-2026-mdc/
 
+📂 **Repositório no GitHub:**  
+https://github.com/iarabeserra/divulgacao-mfp-2026-mdc
 
 ---
 
 ## 👩‍💻 Autoria
 
 - [Iara Rodrigues Beserra](https://github.com/iarabeserra) 
-=======
-# divulgacao-mfp-2026-mdc
-Página web desenvolvida por Iara Rodrigues Beserra no contexto do projeto MDC – Mulheres da Ciência para divulgação da Maratona Feminina de Programação 2026, reunindo informações do evento e links de inscrição.
->>>>>>> f63e45b52dcf061c05f3a22dc9a586178f7fbade

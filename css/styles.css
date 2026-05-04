@@ -160,12 +160,7 @@ body {
   flex-wrap: wrap;
 }
 
-/* (TODO resto do seu CSS original continua exatamente igual — mantido sem alterações) */
-
-
-/* =========================
-   RESPONSIVIDADE
-========================= */
+/* ─── RESPONSIVIDADE ─── */
 
 @media (min-width: 1200px) {
   .flyer {
@@ -245,6 +240,108 @@ body {
 
   .footer-contact {
     text-align: center;
+  }
+}
+
+/* ─── RESPONSIVO MOBILE ─── */
+@media (max-width: 768px) {
+
+  body {
+    padding: 20px 10px;
+  }
+
+  .flyer {
+    width: 100%;
+  }
+
+  .header-content {
+    padding: 32px 20px 30px;
+  }
+
+  .main-title {
+    font-size: 34px;
+  }
+
+  .year-badge {
+    font-size: 48px;
+  }
+
+  .header-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .section,
+  .about-section,
+  .cat-section,
+  .rules-section,
+  .signup-section,
+  .contacts-section {
+    padding: 24px 20px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .about-text {
+    font-size: 13px;
+  }
+
+  .dates-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .date-card.wide {
+    grid-column: span 1;
+  }
+
+  .cat-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .rules-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .contacts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .highlight-box {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .step {
+    flex-direction: column;
+  }
+
+  .step-num {
+    margin-bottom: 6px;
+  }
+
+  .link-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 20px;
+  }
+
+  .footer-contact {
+    text-align: left;
+  }
+
+  .ticker-item {
+    font-size: 10px;
+    padding: 8px 16px;
   }
 }
 

@@ -932,7 +932,7 @@ body {
 
   /* TÍTULO MENOR */
   .main-title {
-    font-size: 30px;
+    font-size: 36px;
     line-height: 1.1;
   }
 
@@ -952,23 +952,38 @@ body {
 
   /* TREINEIRA / COMPETIDORA (BOTÕES) */
   .link-row {
-    width: 100%;
-  }
-
-  .link-btn {
-    width: 100%;
-    text-align: center;
-    padding: 8px 10px;
-    font-size: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .link-label {
-    font-size: 9px;
+    min-width: auto;
+    font-size: 11px;
+  }
+
+  .link-btn {
+    width: auto;
+    font-size: 10px;
+    padding: 6px 12px;
   }
 
   /* STEP MAIS COMPACTO */
   .step {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .step-title {
+    display: flex;
+    align-items: center;
     gap: 10px;
+  }
+
+  .step-num {
+    width: 28px;
+    height: 28px;
+    font-size: 13px;
   }
 
   /* CONTATOS MAIS ORGANIZADOS */
@@ -981,25 +996,31 @@ body {
   }
 
   /* FOOTER MAIS LIMPO */
-  .footer {
-    align-items: center;
-    text-align: center;
+    .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .footer > div:first-child {
+    text-align: left;
   }
 
   .footer-contact {
-    text-align: center;
-  }
-
-  .footer-brand {
-    font-size: 14px;
-  }
-
-  .footer-org {
-    font-size: 9px;
+    text-align: right;
   }
 
   /* GRID FINAL MELHOR */
   .contacts-grid {
     grid-template-columns: 1fr;
+  }
+
+  .cat-card {
+    padding: 22px 18px;
+  }
+
+  .cat-name {
+    line-height: 1.2;
   }
 }

@@ -926,3 +926,80 @@ body {
   height: 6px;
   background: linear-gradient(90deg, var(--pink) 0%, var(--purple) 100%);
 }
+
+/* ─── AJUSTES FINOS MOBILE ─── */
+@media (max-width: 768px) {
+
+  /* TÍTULO MENOR */
+  .main-title {
+    font-size: 30px;
+    line-height: 1.1;
+  }
+
+  .year-badge {
+    font-size: 42px;
+  }
+
+  /* TEXTO GERAL */
+  .section-title {
+    font-size: 18px;
+  }
+
+  .about-text,
+  .step-desc {
+    font-size: 13px;
+  }
+
+  /* TREINEIRA / COMPETIDORA (BOTÕES) */
+  .link-row {
+    width: 100%;
+  }
+
+  .link-btn {
+    width: 100%;
+    text-align: center;
+    padding: 8px 10px;
+    font-size: 10px;
+  }
+
+  .link-label {
+    font-size: 9px;
+  }
+
+  /* STEP MAIS COMPACTO */
+  .step {
+    gap: 10px;
+  }
+
+  /* CONTATOS MAIS ORGANIZADOS */
+  .contact-item {
+    padding: 10px 12px;
+  }
+
+  .ct-val {
+    font-size: 12px;
+  }
+
+  /* FOOTER MAIS LIMPO */
+  .footer {
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-contact {
+    text-align: center;
+  }
+
+  .footer-brand {
+    font-size: 14px;
+  }
+
+  .footer-org {
+    font-size: 9px;
+  }
+
+  /* GRID FINAL MELHOR */
+  .contacts-grid {
+    grid-template-columns: 1fr;
+  }
+}

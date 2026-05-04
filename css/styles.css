@@ -951,25 +951,22 @@ body {
   }
 
   /* TREINEIRA / COMPETIDORA (BOTÕES) */
-  .link-rows {
+  .link-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 6px;
   }
 
-  .link-row {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
   .link-label {
-    font-size: 10px;
-    min-width: auto;
+    font-size: 9.5px;
+    flex: 1; 
   }
 
   .link-btn {
-    font-size: 9.5px;
-    padding: 5px 10px;
-    width: auto;
+    font-size: 9px;
+    padding: 5px 8px;
+    flex-shrink: 0;
   }
 
   /* STEP MAIS COMPACTO */

@@ -852,6 +852,19 @@ body {
   background: rgba(228,0,122,0.2);
 }
 
+.contact-icon img { 
+  width: 20px; 
+  height: 20px; 
+  object-fit: contain; 
+} 
+
+.center-item { 
+  grid-column: span 2; 
+  display: flex;
+  justify-content: center;
+}
+
+
 .ct-label {
   font-family: 'Space Mono', monospace;
   font-size: 9px;
@@ -925,6 +938,83 @@ body {
 .footer-bar {
   height: 6px;
   background: linear-gradient(90deg, var(--pink) 0%, var(--purple) 100%);
+}
+
+/* SUPPORT / ORGANIZAÇÃO */
+.support-section {
+  background: linear-gradient(135deg, #E8007A 0%, #7B2FA0 100%);
+  padding: 20px 48px;
+}
+
+.support-section .section-label {
+  color: rgba(255,255,255,0.7);
+}
+
+.support-section .section-title {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.support-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.support-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 6px;
+  padding: 14px 16px;
+}
+
+.support-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.15);
+  flex-shrink: 0;
+}
+
+.support-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+/* LOGOS */
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.logos img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.9;
+  
+}
+
+.logo.uepb {
+  height: 42px;
+}
+
+.logo.comp {
+  height: 45px;
+}
+
+.logo.mdc {
+  height: 27px;
 }
 
 /* ─── AJUSTES FINOS MOBILE ─── */
@@ -1010,7 +1100,7 @@ body {
   }
 
   /* FOOTER MAIS LIMPO */
-    .footer {
+  .footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;

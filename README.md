@@ -50,6 +50,11 @@ Iniciativa voltada para a participação feminina na área de tecnologia e ciên
 │   └── styles.css     
 ├── 📁js/                      
 │   └── script.js
+├── 📁img/                      
+│   ├── instagram.png
+│   ├── logocomoutacao.png
+│   ├── logomdcbrancapng.png
+│   └── logouepbbranco.png
 ├── index.html
 └── README.md
 ```

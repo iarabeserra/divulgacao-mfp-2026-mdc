@@ -20,6 +20,7 @@ body {
   min-height: 100vh;
   padding: 40px 20px;
   font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 .flyer {
@@ -864,6 +865,11 @@ body {
   justify-content: center;
 }
 
+@media (max-width: 768px) {
+  .center-item {
+    grid-column: span 1;
+  }
+}
 
 .ct-label {
   font-family: 'Space Mono', monospace;
@@ -1143,5 +1149,10 @@ body {
   .cat-badge {
     margin-top: 8px;
     font-size: 8.5px;
+  }
+
+  .contacts-grid,
+  .support-grid {
+    width: 100%;
   }
 }
